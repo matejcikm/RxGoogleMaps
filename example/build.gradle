@@ -18,6 +18,9 @@ android {
     debug {
       resValue "string", "google_maps_key", ""
     }
+    release {
+      resValue "string", "google_maps_key", ""
+    }
   }
 }
 
